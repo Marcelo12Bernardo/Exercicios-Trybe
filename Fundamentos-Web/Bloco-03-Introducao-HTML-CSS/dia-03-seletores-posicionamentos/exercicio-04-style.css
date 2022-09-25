@@ -1,0 +1,44 @@
+    div:hover{
+        border: solid black;
+    }
+    div:hover:nth-of-type(1){
+        background-color: red;
+    }
+    div:hover:nth-of-type(2){
+        background-color: green;
+    }
+    div:hover:nth-of-type(3){
+        background-color:cornflowerblue;
+    }
+    div:hover:nth-of-type(4){
+        background-color:grey;
+    }
+    div:hover:nth-of-type(5){
+        background-color:aqua;
+    }
+    /* Pega o primeiro h3 da primeira div */
+    div:nth-of-type(1) > h3 {
+        color: purple;
+    }
+    div:nth-of-type(2) > h3 {
+        color: green 
+    }
+    div:nth-of-type(3) > h3 {
+        font-size: 20px;
+    }
+    div:nth-of-type(4) > h3 {
+        font-family: monospace;
+    }
+    div:nth-of-type(5) > h3 {
+        font-style: italic
+    }
+    div:nth-of-type(3){
+        height: 90px;
+    }
+    div:nth-of-type(odd){
+        font-style: italic;
+    }
+    div:nth-child(odd) h3 {
+        font-style: italic
+    }
+
